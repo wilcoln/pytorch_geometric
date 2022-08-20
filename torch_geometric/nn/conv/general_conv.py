@@ -72,7 +72,7 @@ class GeneralConv(MessagePassing):
         out_channels: Optional[int],
         in_edge_channels: int = None,
         aggr: str = "add",
-        skip_linear: str = False,
+        skip_linear: bool = False,
         directed_msg: bool = True,
         heads: int = 1,
         attention: bool = False,
